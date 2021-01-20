@@ -1,0 +1,63 @@
+/* line 3, ../sass/test.scss */
+.float {
+  float: left;
+}
+
+/* line 5, ../sass/test.scss */
+.panel {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  width: 335px;
+  height: 112px;
+  background: #FFFFFF;
+}
+
+/* line 15, ../sass/test.scss */
+.panel .str,
+.panel .blank {
+  display: inline;
+  display: none\9;
+  *display: inline;
+  width: 0;
+  height: 100%;
+  zoom: 1;
+}
+
+/* line 24, ../sass/test.scss */
+.panel .str {
+  display: inline;
+  width: 100%;
+  height: auto\9;
+  line-height: 2em;
+}
+
+/* line 33, ../sass/test.scss */
+.panel::before,
+.panel::after {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  bottom: 25px;
+  width: 220px;
+  height: 0;
+  overflow: hidden;
+  border-radius: 3px;
+  clear: both;
+  content: ".";
+  box-shadow: 0 0 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 47, ../sass/test.scss */
+.panel::before {
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  left: 28px;
+}
+
+/* line 53, ../sass/test.scss */
+.panel::after {
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 28px;
+}

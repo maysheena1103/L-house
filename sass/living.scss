@@ -1,0 +1,283 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "mixin";
+@import "compass/css3";
+
+
+
+$aw: 1274px;
+
+/*  tatle width  */
+html,body
+	{
+		@include backgroundimage ("../images/graphy_bg.png");
+		margin:0;
+		padding:0;
+		height:100%;
+		.container
+			{
+				width: $aw;
+				margin: 0 auto;
+			}
+		.float
+			{
+				float: left;
+			}
+		.hidden
+			{
+				display:none;
+			}
+		.top
+			{
+				width: 100%;
+			}
+		.logo
+			{
+				width: 181px;
+				height: 86px;
+				margin-left: $aw - 1129px;
+			}
+		.language_border
+			{
+				margin-left:  $aw - 626px;
+			}
+		.language
+			{
+				width: 49px;
+				height: 12px;
+				margin-right: 2px;
+				margin-right: 2px;
+				padding-top: 10px;
+				text-align: center;
+				font-size: 13px;
+				color: #6E6E6E;
+				border-top: 2px solid #252525;
+			}
+		.top_down
+			{
+				width: $aw;
+				background-color: #000000;
+			}
+		.menu
+			{
+				margin-left: $aw - 1086px;
+				height: 34px;
+			}
+		.menu_margin
+			{
+				margin-right: 85px;
+			}
+
+		.footer
+			{
+
+				width: $aw - 272px;
+				margin-left: $aw - 1129px;
+				padding-top: 30px;
+				border-top: 1px dotted #C0C0C0;
+			}
+		.footer_border
+			{
+				width: $aw - 292px;
+				margin-left: 1.3%;
+			}
+		.footer_logo
+			{
+				height: 76px;
+				width: 210px;
+			}
+		.footer_img
+			{
+				margin-right:10px; 
+			}
+		.footer_name
+			{
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+		.footer_link
+			{
+				margin-bottom: 0px;
+			}
+		.footer_news
+			{
+				margin-left: 6.2%;
+			}
+		.news_table
+			{
+				width: 312px;
+				height: 100px;
+				@include word;
+				color: #AE988A;
+				letter-spacing: 0px;
+			}
+		.tr
+			{
+				border-bottom:1px solid #A7A7A7; 
+
+			}
+		.news_td
+			{
+				a { text-decoration: none }  
+				a:link {color:#AE988A};
+				a:visited {color:#AE988A};
+				a:active {color:#AE988A};
+				a:hover {color:#AE988A};
+			}
+		.time_word
+			{
+				font-family: Time New Rome;
+			}
+		.footer_word
+			{
+				font-size: 13px;
+				color: #929483;
+			}
+		.footer_life
+			{
+				margin-left: 6.2%;
+				width: 335px;
+				height: 112px;
+				background-color: #FFFFFF;
+				@include single-box-shadow(#737665, 0px, 3px, 3px, false, false)
+			}
+		.life_title
+			{
+				width: 100%;
+				margin-left: 10px;
+			}
+		.life_img
+			{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+
+			}
+		.life_table
+			{
+				@include word;
+				width: 60%;
+				height: 70px;
+				color: #A4A4A4;
+				letter-spacing: 0px;
+				margin-top: 8px;
+				
+			}
+		.life_tr
+			{
+				border-left: 2px solid #A4A4A4;
+				padding-left: 3px;
+				a { text-decoration: none }  
+				a:link {color:#A4A4A4};
+				a:visited {color:#A4A4A4};
+				a:active {color:#A4A4A4};
+				a:hover {color:#A4A4A4};
+			}
+
+
+
+
+		.body
+			{
+				@include a(#505050);
+				width: $aw - 298px;
+				height: 340px;
+				margin-left: $aw - 1129px;
+				.right
+					{
+						width: 162px;
+						margin-right: 15px;
+						padding-top: 20px;
+					}
+				.right_box
+					{
+						width: 88%;
+						height: 40px;
+						margin-bottom: 14px;
+						border: 1px solid #C3C3C3;
+						padding-left: 10px;
+						cursor: pointer;
+					}
+				.box_word
+					{
+						@include word;
+						color: #A4A4A4;
+						letter-spacing: 0px;
+						padding-top: 13px;
+						padding-left: 10px;
+					}
+				.box_shadow
+					{
+						@include single-box-shadow(#737665, 3px, 3px, 3px, false, false);
+						margin-top: -7px;
+					}
+				.text_shadow
+					{
+						@include single-text-shadow(2px, 1px, 1px, false, #7E826C);
+						color: #505050;
+						margin-top: -7px;
+					}
+				.midden
+					{
+						width: 439px;
+						margin-right: 10px;
+					}
+
+				.midden_img
+					{
+						width: 100%;
+						height:298px;
+					}
+				.cir
+					{
+						width: 138px;
+						margin-top: -20px;
+						margin-left: 300px;
+					}
+				.circle
+					{
+						
+						@include circle(12px);
+						margin-right: 15px;
+						background-color: rgba( white, 1);
+						cursor: pointer;
+					}
+				.circle_a
+					{
+						
+						opacity: 0.5;
+					}
+				.midden_word
+					{
+						@include word;
+						font-family: Time New Rome;
+						color: #000000;
+						margin-top: 7px;
+						margin-left: 3px;
+					}
+				.left
+					{
+						width: 340px;
+						margin-top: 30px;
+						overflow: hidden;
+					}
+				.left_box
+					{
+						width: 94px;
+						margin-left: 18px;
+						margin-top: 15px;
+						cursor: pointer;
+					}
+				.left_box_a
+					{
+						width: 94px;
+						height: 115px;
+						opacity: 0.4;
+					}
+
+			}
+		
+	}

@@ -1,2 +1,2 @@
-# L-house
+# House
  Interior design

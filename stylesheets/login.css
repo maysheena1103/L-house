@@ -1,0 +1,431 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*  tatle width  */
+/* line 15, ../sass/login.scss */
+html, body {
+  background-image: url("../images/graphy_bg.png");
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* line 21, ../sass/login.scss */
+html .container, body .container {
+  width: 1274px;
+  margin: 0 auto;
+}
+/* line 26, ../sass/login.scss */
+html .float, body .float {
+  float: left;
+}
+/* line 30, ../sass/login.scss */
+html .hidden, body .hidden {
+  display: none;
+}
+/* line 34, ../sass/login.scss */
+html .top, body .top {
+  width: 100%;
+}
+/* line 38, ../sass/login.scss */
+html .logo, body .logo {
+  width: 181px;
+  height: 86px;
+  margin-left: 145px;
+}
+/* line 44, ../sass/login.scss */
+html .language_border, body .language_border {
+  margin-left: 648px;
+}
+/* line 48, ../sass/login.scss */
+html .language, body .language {
+  width: 49px;
+  height: 12px;
+  margin-right: 2px;
+  margin-right: 2px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #6E6E6E;
+  border-top: 2px solid #252525;
+}
+/* line 60, ../sass/login.scss */
+html .top_down, body .top_down {
+  width: 1274px;
+  background-color: #000000;
+}
+/* line 65, ../sass/login.scss */
+html .menu, body .menu {
+  margin-left: 188px;
+  height: 34px;
+}
+/* line 70, ../sass/login.scss */
+html .menu_margin, body .menu_margin {
+  margin-right: 85px;
+}
+/* line 75, ../sass/login.scss */
+html .footer, body .footer {
+  width: 1002px;
+  margin-left: 145px;
+  padding-top: 30px;
+  border-top: 1px dotted #C0C0C0;
+}
+/* line 83, ../sass/login.scss */
+html .footer_border, body .footer_border {
+  width: 982px;
+  margin-left: 1.3%;
+}
+/* line 88, ../sass/login.scss */
+html .footer_logo, body .footer_logo {
+  height: 76px;
+  width: 210px;
+}
+/* line 93, ../sass/login.scss */
+html .footer_img, body .footer_img {
+  margin-right: 10px;
+}
+/* line 97, ../sass/login.scss */
+html .footer_name, body .footer_name {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 102, ../sass/login.scss */
+html .footer_link, body .footer_link {
+  margin-bottom: 0px;
+}
+/* line 106, ../sass/login.scss */
+html .footer_news, body .footer_news {
+  margin-left: 6.2%;
+}
+/* line 110, ../sass/login.scss */
+html .news_table, body .news_table {
+  width: 312px;
+  height: 100px;
+  font-family: Microsoft JhengHei;
+  color: #9EA291;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #AE988A;
+  letter-spacing: 0px;
+}
+/* line 119, ../sass/login.scss */
+html .tr, body .tr {
+  border-bottom: 1px solid #A7A7A7;
+}
+/* line 126, ../sass/login.scss */
+html .news_td a, body .news_td a {
+  text-decoration: none;
+}
+/* line 127, ../sass/login.scss */
+html .news_td a:link, body .news_td a:link {
+  color: #AE988A;
+}
+/* line 128, ../sass/login.scss */
+html .news_td a:visited, body .news_td a:visited {
+  color: #AE988A;
+}
+/* line 129, ../sass/login.scss */
+html .news_td a:active, body .news_td a:active {
+  color: #AE988A;
+}
+/* line 130, ../sass/login.scss */
+html .news_td a:hover, body .news_td a:hover {
+  color: #AE988A;
+}
+/* line 133, ../sass/login.scss */
+html .time_word, body .time_word {
+  font-family: Time New Rome;
+}
+/* line 137, ../sass/login.scss */
+html .footer_word, body .footer_word {
+  font-size: 13px;
+  color: #929483;
+}
+/* line 142, ../sass/login.scss */
+html .footer_life, body .footer_life {
+  margin-left: 6.2%;
+  width: 335px;
+  height: 112px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 3px #737665;
+  -moz-box-shadow: 0px 3px 3px #737665;
+  box-shadow: 0px 3px 3px #737665;
+}
+/* line 150, ../sass/login.scss */
+html .life_title, body .life_title {
+  width: 100%;
+  margin-left: 10px;
+}
+/* line 155, ../sass/login.scss */
+html .life_img, body .life_img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 162, ../sass/login.scss */
+html .life_table, body .life_table {
+  font-family: Microsoft JhengHei;
+  color: #9EA291;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 60%;
+  height: 70px;
+  color: #A4A4A4;
+  letter-spacing: 0px;
+  margin-top: 8px;
+}
+/* line 172, ../sass/login.scss */
+html .life_tr, body .life_tr {
+  border-left: 2px solid #A4A4A4;
+  padding-left: 3px;
+}
+/* line 175, ../sass/login.scss */
+html .life_tr a, body .life_tr a {
+  text-decoration: none;
+}
+/* line 176, ../sass/login.scss */
+html .life_tr a:link, body .life_tr a:link {
+  color: #A4A4A4;
+}
+/* line 177, ../sass/login.scss */
+html .life_tr a:visited, body .life_tr a:visited {
+  color: #A4A4A4;
+}
+/* line 178, ../sass/login.scss */
+html .life_tr a:active, body .life_tr a:active {
+  color: #A4A4A4;
+}
+/* line 179, ../sass/login.scss */
+html .life_tr a:hover, body .life_tr a:hover {
+  color: #A4A4A4;
+}
+/* line 185, ../sass/login.scss */
+html .mwt_border, body .mwt_border {
+  width: 160px;
+  height: 90px;
+  background-color: #FFFFFF;
+  opacity: 0.95;
+  position: relative;
+  margin-left: 908px;
+  padding: 10px;
+  bottom: -117px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px #505050;
+  -moz-box-shadow: 3px 3px 3px #505050;
+  box-shadow: 3px 3px 3px #505050;
+}
+/* line 197, ../sass/login.scss */
+html .mwt_border .arrow_t_int, body .mwt_border .arrow_t_int {
+  width: 0px;
+  height: 0px;
+  border-width: 15px;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+}
+/* line 205, ../sass/login.scss */
+html .mwt_border .arrow_t_out, body .mwt_border .arrow_t_out {
+  width: 0px;
+  height: 0px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+  top: -25px;
+  left: 70px;
+}
+/* line 217, ../sass/login.scss */
+html .translation, body .translation {
+  margin-top: 27px;
+  margin-left: -75px;
+}
+/* line 234, ../sass/login.scss */
+html .body, body .body {
+  width: 931px;
+  height: 340px;
+  margin-left: 185px;
+}
+/* line 241, ../sass/login.scss */
+html .for, body .for {
+  position: absolute;
+  padding: 20px;
+  width: 220px;
+  height: 70px;
+  background-color: #9c8474;
+  opacity: 0.85;
+  margin-top: 150px;
+  margin-left: 320px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+}
+/* line 253, ../sass/login.scss */
+html .for .margin, body .for .margin {
+  margin-left: 10px;
+  color: #FAFAFA;
+}
+/* line 258, ../sass/login.scss */
+html .for .but, body .for .but {
+  background: #FFFFFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin-left: 80%;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+/* line 272, ../sass/login.scss */
+html .body_img, body .body_img {
+  margin-right: 400px;
+  margin-top: 45px;
+  margin-left: 55px;
+}
+/* line 278, ../sass/login.scss */
+html .login_table, body .login_table {
+  margin-top: 30px;
+  margin-left: 165px;
+  margin-right: 500px;
+}
+/* line 284, ../sass/login.scss */
+html .login_td, body .login_td {
+  width: 70px;
+  height: 40px;
+  color: #656758;
+  font-size: 14px;
+}
+/* line 291, ../sass/login.scss */
+html .member_id, body .member_id {
+  width: 120%;
+  height: 78%;
+  padding-left: 5px;
+  border: 1px solid #C0C0C0;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+  background: none;
+}
+/* line 301, ../sass/login.scss */
+html .member, body .member {
+  margin-top: 28px;
+  margin-left: 230px;
+}
+/* line 81, ../sass/_mixin.scss */
+html .member a, body .member a {
+  text-decoration: none;
+}
+/* line 82, ../sass/_mixin.scss */
+html .member a:link, body .member a:link {
+  color: #666666;
+}
+/* line 83, ../sass/_mixin.scss */
+html .member a:visited, body .member a:visited {
+  color: #666666;
+}
+/* line 84, ../sass/_mixin.scss */
+html .member a:active, body .member a:active {
+  color: #666666;
+}
+/* line 85, ../sass/_mixin.scss */
+html .member a:hover, body .member a:hover {
+  color: #666666;
+}
+/* line 307, ../sass/login.scss */
+html .registration, body .registration {
+  color: #666666;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 314, ../sass/login.scss */
+html .border, body .border {
+  border-left: 1px solid #606060;
+}
+/* line 318, ../sass/login.scss */
+html .button_login, body .button_login {
+  width: 82px;
+  height: 25px;
+  margin-top: -23px;
+  margin-left: 144px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border: none;
+  background-image: url(../images/member_22.png);
+}

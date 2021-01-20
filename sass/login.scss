@@ -1,0 +1,330 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "mixin";
+@import "compass/css3";
+
+
+
+$aw: 1274px;
+
+/*  tatle width  */
+html,body
+	{
+		@include backgroundimage ("../images/graphy_bg.png");
+		margin:0;
+		padding:0;
+		height:100%;
+		.container
+			{
+				width: $aw;
+				margin: 0 auto;
+			}
+		.float
+			{
+				float: left;
+			}
+		.hidden
+			{
+				display:none;
+			}
+		.top
+			{
+				width: 100%;
+			}
+		.logo
+			{
+				width: 181px;
+				height: 86px;
+				margin-left: $aw - 1129px;
+			}
+		.language_border
+			{
+				margin-left:  $aw - 626px;
+			}
+		.language
+			{
+				width: 49px;
+				height: 12px;
+				margin-right: 2px;
+				margin-right: 2px;
+				padding-top: 10px;
+				text-align: center;
+				font-size: 13px;
+				color: #6E6E6E;
+				border-top: 2px solid #252525;
+			}
+		.top_down
+			{
+				width: $aw;
+				background-color: #000000;
+			}
+		.menu
+			{
+				margin-left: $aw - 1086px;
+				height: 34px;
+			}
+		.menu_margin
+			{
+				margin-right: 85px;
+			}
+
+		.footer
+			{
+
+				width: $aw - 272px;
+				margin-left: $aw - 1129px;
+				padding-top: 30px;
+				border-top: 1px dotted #C0C0C0;
+			}
+		.footer_border
+			{
+				width: $aw - 292px;
+				margin-left: 1.3%;
+			}
+		.footer_logo
+			{
+				height: 76px;
+				width: 210px;
+			}
+		.footer_img
+			{
+				margin-right:10px; 
+			}
+		.footer_name
+			{
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+		.footer_link
+			{
+				margin-bottom: 0px;
+			}
+		.footer_news
+			{
+				margin-left: 6.2%;
+			}
+		.news_table
+			{
+				width: 312px;
+				height: 100px;
+				@include word;
+				color: #AE988A;
+				letter-spacing: 0px;
+
+			}
+		.tr
+			{
+				border-bottom:1px solid #A7A7A7; 
+
+			}
+		
+		.news_td
+			{
+				a { text-decoration: none }  
+				a:link {color:#AE988A};
+				a:visited {color:#AE988A};
+				a:active {color:#AE988A};
+				a:hover {color:#AE988A};
+			}
+		.time_word
+			{
+				font-family: Time New Rome;
+			}
+		.footer_word
+			{
+				font-size: 13px;
+				color: #929483;
+			}
+		.footer_life
+			{
+				margin-left: 6.2%;
+				width: 335px;
+				height: 112px;
+				background-color: #FFFFFF;
+				@include single-box-shadow(#737665, 0px, 3px, 3px, false, false)
+			}
+		.life_title
+			{
+				width: 100%;
+				margin-left: 10px;
+			}
+		.life_img
+			{
+				margin-top: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+
+			}
+		.life_table
+			{
+				@include word;
+				width: 60%;
+				height: 70px;
+				color: #A4A4A4;
+				letter-spacing: 0px;
+				margin-top: 8px;
+				
+			}
+		.life_tr
+			{
+				border-left: 2px solid #A4A4A4;
+				padding-left: 3px;
+				a { text-decoration: none }  
+				a:link {color:#A4A4A4};
+				a:visited {color:#A4A4A4};
+				a:active {color:#A4A4A4};
+				a:hover {color:#A4A4A4};
+			}
+
+
+
+			.mwt_border
+				{
+					width:160px;
+					height:90px;
+					background-color: #FFFFFF;
+					opacity: 0.95;
+					position:relative;
+					margin-left:908px;
+					padding: 10px;
+					bottom: -117px;
+					@include border-radius(5px);
+					@include single-box-shadow(#505050, 3px, 3px, 3px, false, false);
+					.arrow_t_int
+						{
+							width:0px;
+							height:0px;
+							border-width:15px;
+							border-color:transparent transparent #FFFFFF transparent ;
+							position:absolute;
+						}
+					.arrow_t_out
+						{
+							width:0px;
+							height:0px;
+							border-width:15px;
+							border-style:solid;
+							border-color:transparent transparent #fff transparent ;
+							position:absolute;
+							top:-25px;
+							left: 70px;
+						}
+				}
+			.translation
+				{
+					margin-top: 27px;
+					margin-left: -75px;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+		.body
+			{
+				width: $aw - 343px;
+				height: 340px;
+				margin-left: $aw - 1089px;
+				
+			}
+		.for
+			{
+				position: absolute;
+				padding: 20px;
+				width: 220px;
+				height: 70px;
+				background-color: #9c8474;
+				opacity: 0.85;
+				margin-top: 150px;
+				margin-left: 320px;
+				@include border-radius(5px,5px);
+
+				.margin
+					{
+						margin-left: 10px;
+						color: #FAFAFA;
+					}
+				.but
+					{
+						background: #FFFFFF;
+						@include border-radius(5px);
+						display: inline-block;
+						border: none;
+						margin-left: 80%;
+						margin-top: 15px;
+						padding-left: 10px;
+						padding-right: 10px;
+						padding-top: 4px;
+						padding-bottom: 4px;
+					}
+			}
+		.body_img
+			{
+				margin-right: 400px;
+				margin-top: 45px;
+				margin-left: 55px;
+			}
+		.login_table
+			{
+				margin-top: 30px;
+				margin-left: 165px;
+				margin-right: 500px;
+			}
+		.login_td
+			{
+				width: 70px;
+				height: 40px;
+				color: #656758;
+				font-size: 14px;
+			}
+		.member_id
+			{
+				width: 120%;
+				height: 78%;
+				padding-left: 5px;
+				border: 1px solid #C0C0C0;
+				@include border-radius(5px,5px);
+				background: none;
+				
+			}
+		.member
+			{
+				margin-top: 28px;
+				margin-left: 230px;
+				@include a(#666666);
+			}
+		.registration
+			{
+				color: #666666;
+				font-size: 10px;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+		.border
+			{
+				border-left:  1px solid #606060;
+			}
+		.button_login
+			{
+				width: 82px;
+				height: 25px;
+				margin-top: -23px;
+				margin-left: 144px;
+				background-repeat: no-repeat;
+				display: inline-block;
+				border: none;
+				background-image: url(../images/member_22.png);
+			}
+
+		
+	}

@@ -1,0 +1,133 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "compass/reset";
+@import "mixin";
+@import "compass/css3";
+
+
+
+$aw: 1274px;
+
+/*  tatle width  */
+html,body
+	{
+		@include backgroundimage ("../images/graphy_bg.png");
+		margin:0;
+		padding:0;
+		height:100%;
+		#floater 
+			{ 
+				float:left;
+				height:25%; 
+				margin-bottom:-200px;
+			    width:1px;
+			     /* only for IE7 */
+			}
+		#middle 
+			{ 
+				clear:both;
+				height:400px;
+				position:relative;
+			}
+		.container
+			{
+				width: $aw;
+				margin: 0 auto;
+			}
+		.float
+			{
+				float: left;
+			}
+		.hidden
+			{
+				display:none;
+			}
+		.top
+			{
+				width: 100%;
+			}
+		.logo
+			{
+				width: 181px;
+				height: 86px;
+				margin-left: $aw - 1120px;
+			}
+		.language_border
+			{
+				margin-left:  $aw - 626px;
+			}
+		.language
+			{
+				width: 49px;
+				height: 12px;
+				margin-right: 2px;
+				margin-right: 2px;
+				padding-top: 10px;
+				text-align: center;
+				font-size: 13px;
+				color: #6E6E6E;
+				border-top: 2px solid #252525;
+			}
+		.top_down
+			{
+				width: $aw;
+				background-color: #000000;
+			}
+		.menu
+			{
+				margin-left: $aw - 1086px;
+				height: 34px;
+			}
+		.menu_margin
+			{
+				margin-right: 81px;
+			}
+
+
+
+
+		.footer
+			{
+				width: $aw;
+				height: 59px;
+				background-color: #000000;
+			}
+		.footer_img
+			{
+				width: 227px;
+				height: 59px;
+				margin-left: $aw - 1129px;
+			}
+		.footer_link
+			{
+				margin-left: $aw - 634px;
+				margin-top: 15px;
+			}
+		.link_img
+			{
+				margin-left: 3px;
+			}
+
+
+
+
+		.body
+			{
+				height: 431px;
+				margin-left: $aw - 1129px;
+			}
+		.body_img
+			{
+				@include single-box-shadow(#4B4B4B, 3px, 3px, 9px, false, false)
+			}
+		.faceb
+			{
+				width: 221px;
+				height: 392px;
+				margin-left: 38px;
+				margin-top: 25px;
+			}
+
+	}
